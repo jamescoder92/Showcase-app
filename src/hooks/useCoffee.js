@@ -10,7 +10,7 @@ function useCoffee() {
         .catch(error => console.error('Error fetching products:', error));
     }, []);
 
-  return products;
+  return [products, setProducts];
 }
 
 export default useCoffee;
