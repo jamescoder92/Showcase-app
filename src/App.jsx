@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import LandingPage from './components/LandingPage';
 import ProductPage from './components/ProductPage';
 import FormPage from './components/FormPage';
+import './App.css';
 
 function App() {
   return (
