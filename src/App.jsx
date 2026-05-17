@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import LandingPage from './pages/LandingPage';
-import ProductPage from './pages/ProductPage';
-import FormPage from './pages/FormPage';
+import LandingPage from './components/LandingPage';
+import ProductPage from './components/ProductPage';
+import FormPage from './componenets/FormPage';
 
 function App() {
   return (
